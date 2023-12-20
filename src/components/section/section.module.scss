@@ -1,0 +1,41 @@
+@import '../../vars.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+.title {
+  text-align: center;
+  font-weight: 500;
+  color: $dark-blue;
+  font-size: 28px;
+}
+.subTitle {
+  font-size: 24px;
+  font-weight: 500;
+  color: $dark-blue;
+  text-align: center;
+}
+.text {
+  text-align: center;
+  font-size: 16px;
+  color: $grey;
+  line-height: 24px;
+}
+@media (min-width: 900px) {
+  .title {
+    text-align: start;
+    font-size: 3.4vw;
+  }
+  .subTitle {
+    text-align: start;
+    font-size: 32px;
+  }
+  .text {
+    text-align: start;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

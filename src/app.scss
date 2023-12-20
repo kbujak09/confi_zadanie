@@ -1,0 +1,19 @@
+@import './vars.scss';
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: Rubik, sans-serif;
+  margin: 0;
+}
+@media (min-width: 1441px) {
+  body {
+    padding: 0 4vw;
+    background-color: $dark-blue;
+  }
+  #root {
+    background-color: white;
+  }
+}

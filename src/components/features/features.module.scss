@@ -1,0 +1,61 @@
+@import '../../vars.scss'; 
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 36px 0;
+  padding: 72px 0;
+}
+.sectionOne, .sectionTwo {
+  padding: 0 32px;
+}
+.graphicAndInfo {
+  display: grid;
+  grid-template-rows: 1fr min-content;
+  gap: 36px 0;
+  grid-area: graphicAndInfo;
+}
+.graphic {
+  grid-row: 1 / 2;
+}
+.sectionTwo {
+  grid-row: 2 / 3;
+  padding-top: 12px;
+}
+.more {
+  display: none;
+}
+@media (min-width: 900px) {
+  .container {
+    padding: 6vw 0;
+  }
+  .sectionOne {
+    margin-bottom: 4vw;
+  }
+  .sectionOne > div > div {
+    margin: 0 28vw;
+    text-align: center;
+  }
+  .tabs {
+    margin: 0 18vw;
+  }
+  .graphicAndInfo {
+    display: flex;
+    gap: 0 8vw;
+  }
+  .sectionTwo {
+    padding-right: 11.5vw;
+    padding-left: 8vw;
+  }
+  .more {
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    padding: 16px 32px;
+    margin: 24px auto;
+    background-color: $light-blue;
+
+  }
+}
+

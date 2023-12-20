@@ -1,0 +1,60 @@
+@import '../../../vars.scss'; 
+
+.container {
+  padding: 0 32px;
+}
+
+.questionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin: 22px 0;
+  cursor: pointer;
+  color: $dark-blue
+}
+.questionContainer:hover {
+  color: $red;
+}
+.question {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 500;
+}
+.arrow {
+  width: auto;
+  transition: transform 0.5s ease-in-out;
+}
+.flipped {
+  transform: rotate(180deg);
+  filter: invert(39%) sepia(74%) saturate(2602%) hue-rotate(334deg) brightness(119%) contrast(97%);
+}
+.answer {
+  font-size: 16px;
+  line-height: 0px;
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+  max-height: 0;
+  color: #7c7c7c;
+}
+.hidden {
+  max-height: 0;
+}
+.visible {
+  max-height: 1000px;
+  line-height: 32px;
+  padding: 8px 32px;
+}
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d7d7d7;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 900px) {
+  .visible {
+    padding: 1.6vw 0;
+  }
+}

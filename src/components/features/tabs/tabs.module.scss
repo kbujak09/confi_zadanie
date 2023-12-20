@@ -1,0 +1,67 @@
+@import '../../../vars.scss'; 
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
+  margin-bottom: 76px;
+}
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d7d7d7;
+  margin: 16px 0;
+  padding: 0;
+}
+.singleHr {
+  display: none;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d7d7d7;
+  margin: 16px 0;
+  padding: 0;
+}
+.tab {  
+  font-size: 18px;
+  flex: 1;
+  text-align: center;
+  color: $dark-blue;
+}
+.chosen {
+  text-decoration: underline $red 5px;
+  text-underline-offset: 70%;
+}
+@media (min-width: 900px) {
+  .hr {
+    display: none;
+  }
+  .singleHr {
+    display: block;
+    margin-bottom: 5vw;
+    padding: 0 11.5vw;
+    margin-top: 0;
+  }
+  .tabs {
+    flex-direction: row;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .tab {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: $grey;
+    padding-bottom: 1vw;
+    cursor: pointer;
+  }
+  .tab:hover {
+    color: $red;
+  }
+  .chosen {
+    text-decoration: none;
+    border-bottom: 5px solid $red;
+    color: $red;
+  }
+}

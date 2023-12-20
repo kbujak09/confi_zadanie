@@ -1,0 +1,52 @@
+@import '../../vars.scss'; 
+
+.container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: hsl(229, 31%, 21%, 95%);
+  padding: 42px 32px;
+  color: white;
+
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 42px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item {
+  text-align: center;
+  padding: 12px 0;
+  letter-spacing: 2.4px;
+}
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ffffff2e;
+  padding: 0;
+}
+.login {
+  border: 2px solid white;
+  padding: 12px 32px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  margin: 16px 0;
+}
+.icons {
+  margin-top: auto;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}

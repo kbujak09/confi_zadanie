@@ -1,0 +1,43 @@
+@import '../../../vars.scss';
+
+.geton {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+}
+.button {
+  font-size: 14px;
+  padding: 16px 12px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.chrome {
+  color: white;
+  background-color: $light-blue;
+  border: 2px solid transparent;
+}
+.firefox {
+  color: rgb(94, 94, 94);
+  background-color: rgb(247, 247, 247);
+  -moz-box-shadow:0 2px 5px rgba(182, 182, 182, 0.75);
+  -webkit-box-shadow: 0 2px 5px rgba(182, 182, 182, 0.75);
+  box-shadow: 0 2px 5px rgba(182, 182, 182, 0.75);
+  border: 2px solid transparent;
+}
+.chrome:hover {
+  border: 2px solid $light-blue;
+  color: $light-blue;
+  background-color: white;
+}
+.firefox:hover {
+  border: 2px solid #7f7f7f;
+  color: #7f7f7f;
+  background-color: white;
+}
+@media (min-width: 900px) {
+  .geton {
+    justify-content: flex-start;
+  }
+}

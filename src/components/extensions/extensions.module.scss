@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px 0;
+  padding: 72px 0;
+}
+.browsers {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.section, .browsers {
+  padding: 0 32px;
+}
+
+@media (min-width: 900px) {
+  .container {
+    margin: 6vw 11.5vw;
+  }
+  .section > div > div {
+    margin: 0 16.5vw;
+    text-align: center;
+  }
+  .browsers {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+    margin: 2vw 0;
+  }
+  .browsers > div {
+    margin: 4vw 0;
+    padding: 2vw;
+  }
+  .browsers > div:first-child {
+    margin-top: 0;
+    margin-bottom: 8vw;
+  }
+  .browsers > div:last-child {
+    margin-bottom: 0;
+    margin-top: 8vw;
+  }
+}

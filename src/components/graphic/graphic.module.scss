@@ -1,0 +1,79 @@
+@import '../../vars.scss';
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.imageOne {
+  position: absolute;
+  top: -21vw;
+  width: 100%;
+}
+.imageTwo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0 32px;
+  top: -20vw;
+}
+.shapeOne {
+  background-color: $light-blue;
+  width: 78vw;
+  height: 50vw;
+  right: 0;
+  z-index: -1;
+  border-radius: 120px 0 0 120px;
+}
+.shapeTwo {
+  background-color: $light-blue;
+  z-index: -1;
+  width: 78vw;
+  height: 44vw;
+  left: 0;
+  border-radius: 0 120px 120px 0;
+}
+
+@media (min-width: 600px) {
+  .imageOne, .imageTwo {
+    width: 60vw;
+    top: -10vw;
+  }
+  .imageOne {
+    right: calc(50% - 25vw - 36px);
+  }
+  .imageTwo {
+    left: calc(50% - 25vw - 36px);
+    top: -11vw;
+  }
+  .shapeOne {
+    width: 60vw;
+    height: 32vw;
+  }
+  .shapeTwo {
+    width: 60vw;
+    height: 32vw;
+  }
+}
+@media (min-width: 900px) {
+  .imageOne {
+    width: 44vw;
+    top: -3vw;
+    right: 3vw;
+  }
+  .imageTwo {
+    left: calc(11.5vw - 32px);
+    width: 40vw;
+    top: -3vw;
+  }
+  .shapeOne {
+    width: 34vw;
+    height: 27vw;
+    border-radius: 180px 0 0 180px;
+  }
+  .shapeTwo {
+    width: 42vw;
+    height: 24vw;
+    border-radius: 0 180px 180px 0;
+  }
+}
