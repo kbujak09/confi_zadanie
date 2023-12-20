@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/zadanie_confi/static/css/main.73195c96.css",
-    "main.js": "/zadanie_confi/static/js/main.cd729641.js",
-    "static/media/illustration-features-tab-3.svg": "/zadanie_confi/static/media/illustration-features-tab-3.a4206aab7946773b29b702492d2d014b.svg",
-    "static/media/illustration-features-tab-2.svg": "/zadanie_confi/static/media/illustration-features-tab-2.e933bd6d921c537d7743e08ea4ec488e.svg",
-    "static/media/illustration-hero.svg": "/zadanie_confi/static/media/illustration-hero.07801d05cb11930f0c826add8c05ce22.svg",
-    "static/media/logo-bookmark.svg": "/zadanie_confi/static/media/logo-bookmark.d426263a94701e122e7d14b0c6eee7ce.svg",
-    "static/media/illustration-features-tab-1.svg": "/zadanie_confi/static/media/illustration-features-tab-1.0da3d302207bcad90cdadc5052e35ed6.svg",
-    "static/media/logo-chrome.svg": "/zadanie_confi/static/media/logo-chrome.a42815a014c452e4d95851f7a8daf95b.svg",
-    "static/media/logo-firefox.svg": "/zadanie_confi/static/media/logo-firefox.a9e6ca53e8cfd641e556b7afb1f0085f.svg",
-    "index.html": "/zadanie_confi/index.html",
-    "static/media/bg-dots.svg": "/zadanie_confi/static/media/bg-dots.90f0b46cec8b5f7cfd12393cb5f391a7.svg",
-    "static/media/icon-twitter.svg": "/zadanie_confi/static/media/icon-twitter.dde79e7edd3892319de2ee22ea7ca39d.svg",
-    "static/media/icon-facebook.svg": "/zadanie_confi/static/media/icon-facebook.8b45ba94b5f75f0d38a9bbcc11df55c2.svg",
-    "static/media/icon-error.svg": "/zadanie_confi/static/media/icon-error.a46cc66573dea1a15acb0dd260693083.svg",
-    "static/media/logo-opera.svg": "/zadanie_confi/static/media/logo-opera.ff14e4763945338fe002017c72e7e597.svg",
-    "static/media/icon-close.svg": "/zadanie_confi/static/media/icon-close.b04dc29397de9c9f194fb075c140e966.svg",
-    "static/media/icon-hamburger.svg": "/zadanie_confi/static/media/icon-hamburger.4385fd507d24f37ccbb3ae359b5c9555.svg",
-    "static/media/icon-arrow.svg": "/zadanie_confi/static/media/icon-arrow.8174203a5d4fc44f5247b825de6e2158.svg",
-    "main.73195c96.css.map": "/zadanie_confi/static/css/main.73195c96.css.map",
-    "main.cd729641.js.map": "/zadanie_confi/static/js/main.cd729641.js.map"
+    "main.css": "/confi_zadanie/static/css/main.73195c96.css",
+    "main.js": "/confi_zadanie/static/js/main.73126db9.js",
+    "static/media/illustration-features-tab-3.svg": "/confi_zadanie/static/media/illustration-features-tab-3.a4206aab7946773b29b702492d2d014b.svg",
+    "static/media/illustration-features-tab-2.svg": "/confi_zadanie/static/media/illustration-features-tab-2.e933bd6d921c537d7743e08ea4ec488e.svg",
+    "static/media/illustration-hero.svg": "/confi_zadanie/static/media/illustration-hero.07801d05cb11930f0c826add8c05ce22.svg",
+    "static/media/logo-bookmark.svg": "/confi_zadanie/static/media/logo-bookmark.d426263a94701e122e7d14b0c6eee7ce.svg",
+    "static/media/illustration-features-tab-1.svg": "/confi_zadanie/static/media/illustration-features-tab-1.0da3d302207bcad90cdadc5052e35ed6.svg",
+    "static/media/logo-chrome.svg": "/confi_zadanie/static/media/logo-chrome.a42815a014c452e4d95851f7a8daf95b.svg",
+    "static/media/logo-firefox.svg": "/confi_zadanie/static/media/logo-firefox.a9e6ca53e8cfd641e556b7afb1f0085f.svg",
+    "index.html": "/confi_zadanie/index.html",
+    "static/media/bg-dots.svg": "/confi_zadanie/static/media/bg-dots.90f0b46cec8b5f7cfd12393cb5f391a7.svg",
+    "static/media/icon-twitter.svg": "/confi_zadanie/static/media/icon-twitter.dde79e7edd3892319de2ee22ea7ca39d.svg",
+    "static/media/icon-facebook.svg": "/confi_zadanie/static/media/icon-facebook.8b45ba94b5f75f0d38a9bbcc11df55c2.svg",
+    "static/media/icon-error.svg": "/confi_zadanie/static/media/icon-error.a46cc66573dea1a15acb0dd260693083.svg",
+    "static/media/logo-opera.svg": "/confi_zadanie/static/media/logo-opera.ff14e4763945338fe002017c72e7e597.svg",
+    "static/media/icon-close.svg": "/confi_zadanie/static/media/icon-close.b04dc29397de9c9f194fb075c140e966.svg",
+    "static/media/icon-hamburger.svg": "/confi_zadanie/static/media/icon-hamburger.4385fd507d24f37ccbb3ae359b5c9555.svg",
+    "static/media/icon-arrow.svg": "/confi_zadanie/static/media/icon-arrow.8174203a5d4fc44f5247b825de6e2158.svg",
+    "main.73195c96.css.map": "/confi_zadanie/static/css/main.73195c96.css.map",
+    "main.73126db9.js.map": "/confi_zadanie/static/js/main.73126db9.js.map"
   },
   "entrypoints": [
     "static/css/main.73195c96.css",
-    "static/js/main.cd729641.js"
+    "static/js/main.73126db9.js"
   ]
 }
