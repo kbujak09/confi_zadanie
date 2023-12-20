@@ -21,10 +21,20 @@
   letter-spacing: 3.2px;
   font-size: 14px;
 }
+.listItem {
+  cursor: pointer;
+}
 .icons {
   display: flex;
   justify-content: center;
   gap: 36px;
+}
+.listItem:hover {
+  color: $red;
+}
+.icons > :hover  {
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(49%) sepia(81%) saturate(2481%) hue-rotate(328deg) brightness(100%) contrast(97%);
 }
 @media (min-width: 900px) {
   .footer {

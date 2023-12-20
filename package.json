@@ -2,7 +2,7 @@
   "name": "zadanie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kbujak09.github.io/zadanie_confi/",
+  "homepage": "https://kbujak09.github.io/confi_zadanie/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
