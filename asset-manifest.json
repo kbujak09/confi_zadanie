@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/confi_zadanie/static/css/main.ca44860a.css",
+    "main.css": "/confi_zadanie/static/css/main.fd4a0b67.css",
     "main.js": "/confi_zadanie/static/js/main.e4839f96.js",
     "static/media/illustration-features-tab-3.svg": "/confi_zadanie/static/media/illustration-features-tab-3.a4206aab7946773b29b702492d2d014b.svg",
     "static/media/illustration-features-tab-2.svg": "/confi_zadanie/static/media/illustration-features-tab-2.e933bd6d921c537d7743e08ea4ec488e.svg",
@@ -18,11 +18,11 @@
     "static/media/icon-close.svg": "/confi_zadanie/static/media/icon-close.b04dc29397de9c9f194fb075c140e966.svg",
     "static/media/icon-hamburger.svg": "/confi_zadanie/static/media/icon-hamburger.4385fd507d24f37ccbb3ae359b5c9555.svg",
     "static/media/icon-arrow.svg": "/confi_zadanie/static/media/icon-arrow.8174203a5d4fc44f5247b825de6e2158.svg",
-    "main.ca44860a.css.map": "/confi_zadanie/static/css/main.ca44860a.css.map",
+    "main.fd4a0b67.css.map": "/confi_zadanie/static/css/main.fd4a0b67.css.map",
     "main.e4839f96.js.map": "/confi_zadanie/static/js/main.e4839f96.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca44860a.css",
+    "static/css/main.fd4a0b67.css",
     "static/js/main.e4839f96.js"
   ]
 }
